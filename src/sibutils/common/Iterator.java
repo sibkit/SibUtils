@@ -12,6 +12,6 @@ package sibutils.common;
 public interface Iterator<T>
 {
 
-	boolean hasNext() throws Exception;
-	T next() throws Exception;
+	boolean hasNext();
+	T next();
 }
